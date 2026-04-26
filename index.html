@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Complaint Box — A.C. Patil College of Engineering</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📬</text></svg>"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="stylesheet" href="/src/styles/main.css"/>
+</head>
+<body>
+
+<!-- TOP NAV -->
+<nav class="topnav">
+  <div class="nav-brand" onclick="window.goTo('landing')">
+    <div class="brand-icon">📬</div>
+    <span>Digital Complaint Box</span>
+  </div>
+  <div id="nav-links"></div>
+</nav>
+
+<!-- PAGES -->
+<div id="page-landing"           class="page"></div>
+<div id="page-login"             class="page"></div>
+<div id="page-complete-profile"  class="page"></div>
+<div id="page-student-dashboard" class="page"></div>
+<div id="page-teacher-dashboard" class="page"></div>
+<div id="page-authority-dashboard" class="page"></div>
+<div id="page-admin-dashboard"   class="page"></div>
+<div id="page-submit-complaint"  class="page"></div>
+<div id="page-track"             class="page"></div>
+
+<!-- MODAL -->
+<div id="modal-overlay" class="modal-overlay"
+  onclick="if(event.target===this)window.closeModal()"></div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
