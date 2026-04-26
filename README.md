@@ -1,37 +1,26 @@
 # Digital Complaint Box System
 
-A full-stack web application developed for college complaint management.
+A web-based complaint management system for colleges/institutions.
 
 ## Features
 
-- Student complaint submission
-- Anonymous complaint support
-- Complaint tracking with unique ID
-- Admin dashboard
-- Complaint status updates
-- Email notifications
-- Firebase integration
-- Secure authentication
+* Submit complaints online
+* Track complaint status
+* Admin complaint management
+* Secure login
+* Email notifications
+* Firebase database integration
 
-## Tech Stack
+## Technologies Used
 
-### Frontend
-- React.js
-- JavaScript
-- HTML
-- CSS
-- Tailwind CSS
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- Firebase Firestore
+* HTML
+* CSS
+* JavaScript
+* Firebase
 
 ## Purpose
 
-Designed for colleges/institutions to digitize complaint handling and improve transparency.
+To digitize complaint handling and improve transparency and efficiency in institutions.
 
 ## Author
 
